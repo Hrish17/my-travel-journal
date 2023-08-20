@@ -6,7 +6,7 @@ export default function Card(prop){
             <img src={prop.img} className="card-img" />
             <div className="card-info">
                 <div className="card-location">
-                    <img src="./images/pin.png" />
+                    <img src="images/pin.png" />
                     <p>{prop.location}</p>
                     <a href={prop.link} target="_blank">View on Google Maps</a>
                 </div>
